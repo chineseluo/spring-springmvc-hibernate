@@ -1,0 +1,48 @@
+.btn-pic {
+ display: inherit;
+ position: relative;
+ width: 120px;
+ height: 40px;
+ overflow: hidden;
+ cursor: pointer;
+ text-align: center;
+}
+  
+.btn-pic-bg {
+ border: 1px solid #ff9000;
+ background: none repeat scroll 0 0 #8C8AEA;
+ color: #ffffff;
+ text-decoration: none;
+}
+  
+.btn-pic span {
+ display: block;
+ /*line-height: 39px;*/
+ font-size: 20px;
+
+}
+  
+.ipt-bg {
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 120px;
+ height: 40px;
+ font-size: 100px;
+ opacity: 0;
+ filter: alpha(opacity=0);
+}
+  
+.spanc{
+ color: red;
+}
+  
+.drt {
+ float: right;
+ display: none;
+}
+  
+.dft {
+ float: left;
+}

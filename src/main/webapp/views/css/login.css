@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#box {
+
+    top:100px;
+
+    margin:  auto;
+    width: 600px;
+    height: 340px;
+    border:1px solid grey;
+    border-size:border-box;
+    position: relative;
+
+}
+img{
+    width: 200px;
+    height: 300px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:30px;
+}
+.photo img{
+    width: 50px;
+    height: 50px;
+    margin-top:0px;
+    margin-bottom: -12px;
+    margin-left:0px;
+
+
+}
+#box .position{
+    position: absolute;
+    left: 300px;
+    top: 25px;
+}
+.span{
+    font-size: 25px;
+    font-family:"黑体"
+}
+button{
+    width: 80px;
+    height: 30px;
+    margin-right:3px;
+    font-size: 10px;
+}
+hr{
+    width:348px;
+    position: absolute;
+    left: -58px;
+    top: 64px;
+}
